@@ -184,3 +184,12 @@ Version 0.8.13 - 02/25/2006
 	- better handling of errors when reading attachments from files and when
 	  opening the debug files
 	- fixed some problems in Content-type header generation
+
+Version 0.8.16 - 07/15/2008
+	- fixed unwanted modification of the parameter hash
+
+
+Version 0.8.21
+	- fixed the case in the header names (Content-type -> Content-Type)
+	- fixed the encoding of non-ascii stuff in headers (RFC 2047)
+	- fixed using the ctype even for body with MailFile
