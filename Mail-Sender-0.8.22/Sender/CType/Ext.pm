@@ -1,4 +1,6 @@
 package Mail::Sender;
+use strict;
+
 %Mail::Sender::CTypes =
 (
 #-------------------------------------<TEXT>-----

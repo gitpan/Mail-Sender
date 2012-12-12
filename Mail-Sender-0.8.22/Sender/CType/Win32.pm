@@ -1,4 +1,5 @@
 package Mail::Sender;
+use strict;
 use Win32API::Registry qw(RegOpenKeyEx RegQueryValueEx HKEY_CLASSES_ROOT);
 
 sub GuessCType {

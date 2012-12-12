@@ -6,7 +6,7 @@ BEGIN {
 	use_ok( 'Mail::Sender' );
 }
 
-my $sender = Mail::Sender->new();
+my $sender = Mail::Sender->new({tls_allowed => 0});
 
 ok( ($sender > 0), "created the object with default settings")
  or do { diag( "  Error: $Mail::Sender::Error"); exit};
