@@ -193,3 +193,11 @@ Version 0.8.21
 	- fixed the case in the header names (Content-type -> Content-Type)
 	- fixed the encoding of non-ascii stuff in headers (RFC 2047)
 	- fixed using the ctype even for body with MailFile
+
+Version 0.8.23
+	- fixed problems with long subjects containing accentuated characters
+	- fixed problems with IO::Socket::SSL
+	- trims addresses passed in an array (per request)
+	- changed licence per request from Fedora
+	- fix to allow very long passwords
+	- fix error in TestServer()

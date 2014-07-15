@@ -1,5 +1,5 @@
 Mail::Sender - module for sending mails with attachments through an SMTP server
-Version 0.8.21
+Version 0.8.23
  by Jenda@Krynicky.cz
  http://Jenda.Krynicky.cz
 
@@ -8,11 +8,12 @@ Highlights:
  Protocols builtin to Sender.pm : LOGIN, PLAIN, CRAM-MD5, NTLM
  You can add new supported protocols easily.
 
-Known problems :
- The problem with multiline responses from some SMTP servers (namely qmail) is solved.
 
-Copyright (c) 1997-2012 Jan Krynicky <Jenda@Krynicky.cz>. All rights reserved.
+Copyright (c) 1997-2014 Jan Krynicky <Jenda@Krynicky.cz>. All rights reserved.
 This program is free software; you can redistribute it and/or modify it under
-the same terms as Perl itself with only one exception, you are not allowed
-to use the module for SPAM.
+the same terms as Perl itself.
+
+You are discouraged from using this module for sending SPAM! (see
+http://spam.abuse.net/ for definition). It is unethical and, in many
+jurisdictions, illegal.
 
